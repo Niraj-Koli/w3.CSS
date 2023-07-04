@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/w3css/4/w3.css" />
+        <title>Modal</title>
+    </head>
+
+    <body>
+        <style>
+            hr {
+                border-color: black;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 70px;
+                font-family: lucida handwriting, cursive;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 50px;
+                font-family: lucida handwriting, cursive;
+            }
+        </style>
+
+        <hr />
+
+        <h1>Modal</h1>
+
+        <hr />
+
+        <div class="w3-center">
+            <button
+                onClick="document.getElementById('world').style.display='block'"
+                class="w3-button w3-cursive w3-xxlarge w3-black w3-hover-white w3-hover-text-black">
+                Modal
+            </button>
+            <div id="world" class="w3-modal">
+                <div class="w3-modal-content w3-card-4">
+                    <header
+                        class="w3-container w3-padding w3-xlarge w3-cursive w3-pink">
+                        Header
+                        <span
+                            onclick="document.getElementById('world').style.display='none'"
+                            class="w3-button w3-hover-black w3-display-topright"
+                            >&times;</span
+                        >
+                    </header>
+                    <div
+                        class="w3-container w3-padding w3-large w3-cursive w3-yellow">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iure id iusto doloribus aliquam consectetur atque
+                        assumenda error explicabo perferendis veritatis?
+                    </div>
+                    <footer
+                        class="w3-container w3-padding w3-xlarge w3-cursive w3-blue">
+                        Footer
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="w3-center">
+            <button
+                onClick="document.getElementById('gohan').style.display='block'"
+                class="w3-button w3-cursive w3-xxlarge w3-yellow w3-hover-black w3-hover-text-yellow">
+                Gohan
+            </button>
+
+            <div
+                id="gohan"
+                class="w3-modal"
+                onclick="this.style.display='none'">
+                <div
+                    class="w3-modal-content w3-center w3-card-4 w3-animate-top">
+                    <header
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-yellow">
+                        Gohan
+                    </header>
+                    <span
+                        onclick="document.getElementById('gohan').style.display='none'"
+                        class="w3-button w3-large w3-yellow w3-hover-black w3-display-topright"
+                        >&times;</span
+                    >
+                    <img
+                        src="Images/GohanDelta.png"
+                        alt="Gohan"
+                        style="width: 100%" />
+                    <div
+                        class="w3-container w3-padding w3-center w3-xlarge w3-cursive w3-sand">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequuntur eius quod asperiores, placeat aspernatur
+                        necessitatibus iste aliquam quae debitis velit ab ad
+                        quos dolorum ea mollitia minus atque. Consectetur
+                        quisquam nostrum odio nemo, dolore explicabo, nobis
+                        accusamus corrupti temporibus similique mollitia,
+                        inventore dolorum iusto fugiat aliquam sunt cupiditate
+                        velit maxime?
+                    </div>
+                    <footer
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-yellow">
+                        Dragon Ball Z
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="w3-center">
+            <button
+                onClick="document.getElementById('gojo').style.display='block'"
+                class="w3-button w3-cursive w3-xxlarge w3-blue w3-hover-white w3-hover-text-blue">
+                Gojo
+            </button>
+
+            <div id="gojo" class="w3-modal" onclick="this.style.display='none'">
+                <div
+                    class="w3-modal-content w3-center w3-card-4 w3-animate-bottom">
+                    <header
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-blue">
+                        Gojo
+                    </header>
+                    <span
+                        onclick="document.getElementById('gojo').style.display='none'"
+                        class="w3-button w3-blue w3-hover-black w3-display-topright"
+                        >&times;</span
+                    >
+                    <img
+                        src="Images/GojoAlpha.jpg"
+                        alt="Gojo"
+                        style="width: 100%" />
+                    <div
+                        class="w3-container w3-padding w3-center w3-xlarge w3-cursive w3-sand">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Sit, quo nam fugiat aut perferendis quas cum iusto
+                        amet omnis nulla veniam laudantium sint quos culpa porro
+                        eum, ut tempora dolorum error eveniet mollitia aliquam!
+                        Adipisci corporis dolorem quisquam tempora placeat id,
+                        ad minus nulla obcaecati dolore? Quisquam nisi sapiente
+                        debitis.
+                    </div>
+                    <footer
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-blue">
+                        Jujutsu Kaisen
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="w3-center">
+            <button
+                onClick="document.getElementById('dabi').style.display='block'"
+                class="w3-button w3-cursive w3-xxlarge w3-pink w3-hover-white w3-hover-text-pink">
+                Dabi
+            </button>
+
+            <div id="dabi" class="w3-modal" onclick="this.style.display='none'">
+                <div
+                    class="w3-modal-content w3-center w3-card-4 w3-animate-left">
+                    <header
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-pink">
+                        Dabi
+                    </header>
+                    <span
+                        onclick="document.getElementById('dabi').style.display='none'"
+                        class="w3-button w3-pink w3-hover-black w3-display-topright"
+                        >&times;</span
+                    >
+                    <img
+                        src="Images/DabiAlpha.jpg"
+                        alt="Dabi"
+                        style="width: 100%" />
+                    <div
+                        class="w3-container w3-padding w3-center w3-xlarge w3-cursive w3-sand">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci nesciunt hic temporibus similique ipsum ipsam,
+                        expedita rerum et fugit? Nam, maiores amet! Esse id, sit
+                        minus repudiandae, aperiam assumenda quam at
+                        necessitatibus, mollitia doloremque officiis consequatur
+                        totam sed modi beatae obcaecati! Dolor tenetur quos
+                        voluptates iusto placeat expedita pariatur aliquam?
+                    </div>
+                    <footer
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-pink">
+                        My Hero Academia
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="w3-center">
+            <button
+                onClick="document.getElementById('ichigo').style.display='block'"
+                class="w3-button w3-cursive w3-xxlarge w3-deep-orange w3-hover-white w3-hover-text-deep-orange">
+                Ichigo
+            </button>
+
+            <div
+                id="ichigo"
+                class="w3-modal"
+                onclick="this.style.display='none'">
+                <div
+                    class="w3-modal-content w3-center w3-card-4 w3-animate-right">
+                    <header
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-deep-orange">
+                        Ichigo
+                    </header>
+                    <span
+                        onclick="document.getElementById('ichigo').style.display='none'"
+                        class="w3-button w3-deep-orange w3-hover-black w3-display-topright"
+                        >&times;</span
+                    >
+                    <img
+                        src="Images/IchigoAlpha.jpg"
+                        alt="Ichigo"
+                        style="width: 100%" />
+                    <div
+                        class="w3-container w3-padding w3-center w3-xlarge w3-cursive w3-sand">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sint minus corrupti, voluptatum repudiandae quae,
+                        placeat qui obcaecati tenetur et assumenda quia rerum
+                        illo ad veritatis rem mollitia a veniam animi eius
+                        labore omnis molestias asperiores. Labore, sequi
+                        consequuntur? Consequuntur molestiae odit impedit
+                        architecto ex reiciendis fugiat veniam provident eos
+                        velit?
+                    </div>
+                    <footer
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-deep-orange">
+                        Bleach
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="w3-center">
+            <button
+                onClick="document.getElementById('levi').style.display='block'"
+                class="w3-button w3-cursive w3-xxlarge w3-purple w3-hover-white w3-hover-text-purple">
+                Levi
+            </button>
+
+            <div id="levi" class="w3-modal" onclick="this.style.display='none'">
+                <div
+                    class="w3-modal-content w3-center w3-card-4 w3-animate-opacity">
+                    <header
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-purple">
+                        Levi
+                    </header>
+                    <span
+                        onclick="document.getElementById('levi').style.display='none'"
+                        class="w3-button w3-purple w3-hover-black w3-display-topright"
+                        >&times;</span
+                    >
+                    <img
+                        src="Images/LeviAlpha.jpg"
+                        alt="Levi"
+                        style="width: 100%" />
+                    <div
+                        class="w3-container w3-padding w3-center w3-xlarge w3-cursive w3-sand">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Odio voluptatum vel similique ad exercitationem
+                        nisi, laborum asperiores eius accusamus, in iste!
+                        Laudantium quaerat libero, soluta, earum aliquam
+                        pariatur error adipisci at nemo distinctio totam ipsam
+                        mollitia magnam suscipit. Ullam dignissimos eius
+                        inventore ex accusantium sit dolores architecto dolorum
+                        qui consectetur.
+                    </div>
+                    <footer
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-purple">
+                        Attack On Titan
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="w3-center">
+            <button
+                onClick="document.getElementById('jinwoo').style.display='block'"
+                class="w3-button w3-cursive w3-xxlarge w3-blue-gray w3-hover-white w3-hover-text-gray">
+                Jinwoo
+            </button>
+
+            <div
+                id="jinwoo"
+                class="w3-modal"
+                onclick="this.style.display='none'">
+                <div
+                    class="w3-modal-content w3-center w3-card-4 w3-animate-zoom">
+                    <header
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-blue-gray">
+                        Jinwoo
+                    </header>
+                    <span
+                        onclick="document.getElementById('jinwoo').style.display='none'"
+                        class="w3-button w3-blue-gray w3-hover-black w3-display-topright"
+                        >&times;</span
+                    >
+                    <img
+                        src="Images/SungJinwooAlpha.jpg"
+                        alt="Jinwoo"
+                        style="width: 100%" />
+                    <div
+                        class="w3-container w3-padding w3-center w3-xlarge w3-cursive w3-sand">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Alias, aperiam ipsam. Quisquam veritatis similique
+                        commodi officia assumenda inventore voluptate aliquid
+                        natus cum necessitatibus! Consectetur ducimus ullam
+                        provident doloribus aspernatur? Accusamus impedit
+                        voluptatum odit deleniti excepturi? Rerum voluptatum
+                        inventore aliquam! Obcaecati quam est voluptas saepe
+                        quas consectetur omnis, deserunt enim aliquam.
+                    </div>
+                    <footer
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-blue-gray">
+                        Solo Leveling
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="w3-center">
+            <button
+                onClick="document.getElementById('luffy').style.display='block'"
+                class="w3-button w3-cursive w3-xxlarge w3-aqua w3-hover-black w3-hover-text-aqua">
+                Luffy
+            </button>
+
+            <div
+                id="luffy"
+                class="w3-modal"
+                onclick="this.style.display='none'">
+                <div
+                    class="w3-modal-content w3-center w3-card-4 w3-animate-fading">
+                    <header
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-aqua">
+                        Luffy
+                    </header>
+                    <span
+                        onclick="document.getElementById('luffy').style.display='none'"
+                        class="w3-button w3-aqua w3-hover-black w3-display-topright"
+                        >&times;</span
+                    >
+                    <img
+                        src="Images/LuffyAlpha.jpg"
+                        alt="Luffy"
+                        style="width: 100%" />
+                    <div
+                        class="w3-container w3-padding w3-center w3-xlarge w3-cursive w3-sand">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Eaque reprehenderit minus rerum blanditiis quos!
+                        Dolorum quis quam tenetur dolore sint amet vero
+                        voluptatibus cum officia corporis, nulla dolores fugit
+                        eius tempora est impedit odit aliquid quia voluptate at
+                        laboriosam. Dicta illo consequatur cumque aperiam
+                        perferendis totam, vitae est numquam dignissimos!
+                    </div>
+                    <footer
+                        class="w3-container w3-padding w3-center w3-cursive w3-xxlarge w3-aqua">
+                        One Piece
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+    </body>
+</html>

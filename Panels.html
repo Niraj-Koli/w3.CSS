@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/w3css/4/w3.css" />
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/lib/w3-colors-vivid.css" />
+        <title>Panels</title>
+    </head>
+
+    <body>
+        <style>
+            hr {
+                border-color: black;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 70px;
+                font-family: lucida handwriting, cursive;
+            }
+
+            h2 {
+                text-align: center;
+                font-size: 50px;
+                font-family: lucida handwriting, cursive;
+            }
+
+            div {
+                font-size: 30px;
+                font-family: arial, sans-serif;
+            }
+        </style>
+
+        <hr />
+
+        <h1>Panels</h1>
+
+        <hr />
+
+        <div class="w3-panel w3-center w3-vivid-reddish-purple">Panels</div>
+
+        <div class="w3-panel w3-center w3-aqua">Panels</div>
+
+        <div class="w3-container w3-center w3-vivid-reddish-purple">
+            Containers
+        </div>
+
+        <div class="w3-container w3-center w3-aqua">Containers</div>
+
+        <hr />
+
+        <h2>Panel</h2>
+
+        <hr />
+
+        <div class="w3-panel w3-center w3-aqua">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            corporis cupiditate delectus ducimus. Ut suscipit voluptate expedita
+            maxime? Doloribus odit optio tempore porro molestiae voluptatem
+            ipsum culpa illum fuga ut error consequuntur voluptate impedit,
+            autem assumenda dolorum voluptatibus, accusamus soluta aperiam qui.
+            Labore earum asperiores suscipit magnam quisquam voluptatum fugiat.
+        </div>
+
+        <hr />
+
+        <h2>Closing Panels</h2>
+
+        <hr />
+
+        <div class="w3-panel w3-aqua w3-center w3-display-container">
+            <span
+                onclick="this.parentElement.style.display='none'"
+                class="w3-button w3-black w3-large w3-display-topright"
+                >x</span
+            >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos itaque
+            soluta inventore suscipit vitae nihil tenetur aspernatur earum?
+            Corporis blanditiis perspiciatis excepturi dolor? Quos quia
+            cupiditate rerum necessitatibus minima nam reprehenderit corporis
+            harum, cumque repudiandae provident fuga voluptatum! Quod qui
+            dignissimos maxime sint facilis quibusdam id? Alias nostrum veniam
+            expedita.
+        </div>
+
+        <hr />
+
+        <h2>Opening Panels</h2>
+
+        <hr />
+
+        <button
+            class="w3-button w3-center w3-xlarge w3-black"
+            onclick="document.getElementById('kaneki').style.display='block'">
+            Show Panel
+        </button>
+
+        <div
+            id="kaneki"
+            class="w3-panel w3-aqua w3-center w3-display-container"
+            style="display: none">
+            <span
+                onclick="this.parentElement.style.display='none'"
+                class="w3-button w3-black w3-large w3-display-topright"
+                >x</span
+            >
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+            eligendi vero cumque numquam, animi dicta. Delectus quibusdam dolor
+            recusandae! Autem aut eos provident voluptates, voluptate dolores
+            at! Porro doloribus at velit eos praesentium expedita aperiam
+            corrupti non numquam dolorem, eligendi vitae, cupiditate deleniti!
+            Repudiandae sint nemo sunt libero, laborum ipsum.
+        </div>
+
+        <hr />
+
+        <div style="padding: 100px"></div>
+    </body>
+</html>
